@@ -91,3 +91,37 @@ if dia in dias:
 for valor in dias.values():
 
     print(valor)
+
+
+
+
+#   operador ternário
+
+idade = 20
+
+#maior ou menor
+
+status = 'maior' if idade >= 18 else 'menor'
+
+
+#   match
+
+dia = 3
+
+match dia:
+    case 1:
+        print('Domingo')
+    case 2:
+        print('Segunda')
+    case 3:
+        print('Terça')
+    case _:
+        print('Dia invalido')
+
+match dia:
+    case 1|7:
+        print('Fim de semana')
+    case 2|3|4|5|6:
+        print('Dia útil')
+    case _:
+        print('Dia inavalido')
