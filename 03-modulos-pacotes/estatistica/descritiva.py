@@ -1,5 +1,3 @@
-from .inferencial import VALOR
-from ..matematica import somar
 
 def media(valores):
     return sum(valores)/len(valores)

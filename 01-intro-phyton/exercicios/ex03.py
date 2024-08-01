@@ -4,7 +4,7 @@ Compra = 7999.9
 if Compra >= 0.01 and Compra < 10:
     Desconto = 0
 elif Compra <100:
-    Desconto =
+    Desconto =20
     
 elif Compra <500:
     Desconto = 10
